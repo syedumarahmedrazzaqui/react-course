@@ -5,12 +5,13 @@ import Random from "./Random";
 
 // we can create a components on other file and can use it many time like Random comp 
 //and what we change on that file it will change in all Random tags which we create
+//we have to name a component first letter should be capital
 function App(){
   return (
     <div>
       <h1>hello arold how</h1>
       <KgButton></KgButton>
-      //we have to name a component first letter should be capital
+      <p>hi</p>
       <Hello></Hello>
       <Random></Random>
       <Random></Random>
